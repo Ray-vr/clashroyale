@@ -1,0 +1,18 @@
+body { background: #24344f; color: #fff; font-family: Arial, sans-serif; text-align: center; }
+#game { margin: 0 auto; width: 820px; }
+#battlefield-wrap { position: relative; margin: 0 auto; width: 800px; height: 500px; }
+canvas#battlefield { background: #3875d7; border-radius: 20px; box-shadow: 0 8px 30px #0009; }
+#ui-bar { margin: 20px auto; width: 800px; }
+#elixir-bar, #timer { margin-bottom: 8px; font-size: 1.2em; }
+#card-panel { margin-bottom: 8px; }
+.card-btn {
+  display: inline-block; margin: 0 6px; padding: 12px 22px; background: #fff; color: #222;
+  border: 2px solid #a6a6a6; border-radius: 8px; font-weight: bold; cursor: grab;
+}
+.card-btn:active { cursor: grabbing; }
+.card-btn:disabled { background: #ccc; color: #888; }
+#trophy-road, #chest-panel, #magic-items, #match-info { margin-bottom: 8px; }
+#open-chest-btn, #save-btn, #load-btn {
+  margin: 4px; padding: 8px 18px; background: #ffd700; color: #222;
+  border: none; border-radius: 4px; cursor: pointer; font-weight: bold;
+}
